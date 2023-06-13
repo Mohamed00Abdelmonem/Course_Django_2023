@@ -193,3 +193,41 @@
 
 
     ################################# list comprhanchan ################################
+
+
+# def remove_word_from_sentence(sentence, word):
+#     i = sentence.split(" ")
+#     list_result = [str(x) for x in i if x != word  ]
+    
+#     print (' '.join (str(e) for e in list_result))
+
+# (remove_word_from_sentence("remove the word from the sentence", "the"))        
+
+
+
+
+# **********************************************************************************************
+
+
+# 7. Create a function takes a sentence and a word and prints how many time the word used in the sentence
+
+# def count_word(sentence ,word):
+#     x = sentence.split(' ')
+#     n = 0
+#     for i in x:
+#         if i == word:   
+#            n+=1
+#     print(n)
+# count_word("hello mohamed hello hello hello", "hello")
+
+
+    ################################# list comprhanchan ################################
+
+
+
+# def count_word(sentence, word):
+#     split_sentence = sentence.split(" ")
+#     list_result = [length for length in split_sentence if length == word]
+#     print(len(list_result))
+
+# count_word("hello mohamed hello hello hello", "hello")
