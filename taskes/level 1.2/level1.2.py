@@ -137,6 +137,7 @@
 
 
 
+# **********************************************************************************************
 
 
 
@@ -162,8 +163,33 @@
 
 
 
-def count_len_words_in_sentence(sentence):
-    result = [len(word) for word in sentence if word != " " ]
-    return sum(result)
+# def count_len_words_in_sentence(sentence):
+#     result = [len(word) for word in sentence if word != " " ]
+#     return sum(result)
 
-print(count_len_words_in_sentence("hello  mr Mohamed"))        
+# print(count_len_words_in_sentence("hello  mr Mohamed"))        
+
+
+# **********************************************************************************************
+
+
+
+# 6. Create a function that takes a sentence and word and remove the word from the sentence
+
+
+    ####################### The Normal way #################################
+
+# def remove_word_from_sentence(sentence, word):
+#     empty_list = []
+#     x = sentence.split(" ")
+#     for i in x:
+#         if i == word:
+#             continue
+#         elif i != word:
+#             empty_list.append(i)
+#             x = " ".join(str(e) for e in empty_list)
+#     return x
+# print(remove_word_from_sentence("remove the word from the sentence", "the"))        
+
+
+    ################################# list comprhanchan ################################
