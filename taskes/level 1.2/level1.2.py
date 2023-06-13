@@ -132,3 +132,38 @@
 #     x = " ".join(str(e) for e in result_list)
 #     return x
 # print(no_duplicated("hi mohamed hi and ahmed "))
+
+
+
+
+
+
+
+
+# 5. Create a function that takes a sentence and prints how many words in the sentence (do not count the
+# spaces)
+
+    ####################### The Normal way #################################
+
+
+# def count_len_words_in_sentence(sentence):
+#     list_empty = []
+#     for word in sentence:
+#         if word == " ":
+#             continue
+#         else:
+#             list_empty.append(word)
+
+#     return len(list_empty)
+# print(count_len_words_in_sentence("hello  mr Mohamed"))        
+
+
+    ################################# list comprhanchan ################################
+
+
+
+def count_len_words_in_sentence(sentence):
+    result = [len(word) for word in sentence if word != " " ]
+    return sum(result)
+
+print(count_len_words_in_sentence("hello  mr Mohamed"))        
