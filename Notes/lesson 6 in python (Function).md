@@ -1,4 +1,4 @@
-# lesson 6 in python (Function)
+# lesson 6 and 7 in python (Function)
 
 - #### modularity (الداله هي اول خطوه في ال مودلارتي  وهو عشان لما بتيجي تقسم الكود لاجزاء صغيره  عشان نقدر نستحدمها عده مرات  and notes componace  هي تقسيم الكود او تفتيته لاجزاء صغيره)
 
