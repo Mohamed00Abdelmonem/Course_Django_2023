@@ -1,0 +1,18 @@
+body{
+    background-color: #E9EDF4;
+    font-family: 'Jost',sans-serif;
+}
+
+
+.navbar-nav{
+    padding: 3;
+    margin-left: 50px;
+}
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.nav-item{
+    margin-right: 40px;
+}
